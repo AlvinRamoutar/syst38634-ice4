@@ -36,4 +36,14 @@ public class PrimeNo {
 		else
 			return false;
 	}
+	
+	// Checks if supplied object is of type integer
+	public static <T> boolean isNumber(T number) {
+		try {
+			Integer.parseInt(number.toString());
+			return true;
+		} catch(Exception e) {
+			return false;
+		}
+	}
 }
