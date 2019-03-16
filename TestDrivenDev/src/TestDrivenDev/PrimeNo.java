@@ -36,11 +36,21 @@ public class PrimeNo {
 		else
 			return false;
 	}
-	
+
 	// Checks odd numbers
 	public static boolean checkOdd(int i) {
 		if(i%2!=0) return true;
 		else
 			return false;
+	}
+	
+	// Checks if supplied object is of type integer
+	public static <T> boolean isNumber(T number) {
+		try {
+			Integer.parseInt(number.toString());
+			return true;
+		} catch(Exception e) {
+			return false;
+		}
 	}
 }
