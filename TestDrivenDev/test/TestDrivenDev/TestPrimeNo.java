@@ -29,4 +29,11 @@ public class TestPrimeNo {
 		assertEquals(true, PrimeNo.checkEven(10));
 	
 	}
+	
+	@Test
+	public void test2Plus2() {
+		int expected = 4;
+		int result = 5;
+		assertEquals(expected, result);
+	}
 }
