@@ -1,15 +1,9 @@
 package TestDrivenDev;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.FixMethodOrder;
-import org.junit.Ignore;
 import org.junit.Test;
-import org.junit.runners.MethodSorters;
 
-//import com.maven.examples.LuckyNumber;
 
 public class TestPrimeNo {
 	

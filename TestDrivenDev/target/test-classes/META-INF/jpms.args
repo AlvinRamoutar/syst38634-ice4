@@ -1,0 +1,4 @@
+--patch-module
+TestDrivenDev=_
+--add-reads
+TestDrivenDev=ALL-UNNAMED
