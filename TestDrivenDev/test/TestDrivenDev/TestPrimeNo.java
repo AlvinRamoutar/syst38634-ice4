@@ -4,7 +4,6 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-
 public class TestPrimeNo {
 	
 	
@@ -14,7 +13,7 @@ public class TestPrimeNo {
 	//@After
 	@Test
 	public void testPrimeNo() {
-		assertEquals(true, PrimeNo.checkPrime(8));
+		assertEquals(true, PrimeNo.checkPrime(2));
 	
 	}
 	//@Before
@@ -25,9 +24,9 @@ public class TestPrimeNo {
 	}
 	
 	@Test
-	public void test2Plus2() {
-		int expected = 4;
-		int result = 5;
-		assertEquals(expected, result);
+	public void testIsNumber() {
+		String digit = "3";
+		assertEquals(true, PrimeNo.isNumber(digit));
 	}
+
 }

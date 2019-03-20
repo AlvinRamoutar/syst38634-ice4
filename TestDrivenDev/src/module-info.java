@@ -6,6 +6,5 @@
  *
  */
 module TestDrivenDev {
-	requires junit;
 
 }
